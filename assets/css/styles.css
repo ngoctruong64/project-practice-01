@@ -601,7 +601,13 @@ a {
     width: 28px;
     height: 28px;
     border-radius: 3px;
+    background: #F9F9F9;
 }
+
+.footer .social-link + .social-link { 
+    margin-left: 16px;
+}
+/* một social link nằm sau 1 social link trong footer bị tác động */
 
 .footer .social-link:hover {
     background: #ebebeb;
